@@ -31,3 +31,4 @@ print("B1':",B1)
 sig = np.cov(M, rowvar=False, bias= True)
 print("xy:",sig[0][1])
 print("y^2:",sig[1,1])
+
