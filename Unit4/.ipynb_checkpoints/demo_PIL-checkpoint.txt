@@ -1,0 +1,15 @@
+#
+# pip install pillow
+#
+from PIL import Image
+#
+img = Image . open( 'peppers.jpeg' )
+#
+print( img . size )
+#
+print( img . getpixel( (0,0) ) )
+#
+img . putpixel( (250,100) , (255,255,0) )
+#
+img . show()
+#
